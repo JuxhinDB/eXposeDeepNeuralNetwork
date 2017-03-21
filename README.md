@@ -14,11 +14,11 @@ This project uses [keras](http://keras.io "keras") to implement a character-leve
 
 eXpose uses [zerorpc](http://www.zerorpc.io/ "ZeroRPC") to host the neural network models as RPC services.  From the top level project directory, you can run the eXpose model in three different modes: URL detection mode, path detection mode, and registry key path detection mode, as follows:
 
-`python model_server.py ../data/urls`
+`python model_server.py ../data/models/urls`
 
-`python model_server.py ../data/paths`
+`python model_server.py ../data/models/paths`
 
-`python model_server.py ../data/registry`
+`python model_server.py ../data/models/registry`
 
 These commands start a model RPC server and load in trained neural network weights from the data directory such that the neural network will know how to perform detection on the object of interest.  An example client for the model servers is provided in `src/example_model_client.py` for your convenience.  This script tests the URL detection functionality of eXpose.  You can run this test as follows:
 
