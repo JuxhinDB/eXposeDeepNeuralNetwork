@@ -48,6 +48,7 @@ This should generate the following output:
 * sklearn
 * zerorpc
 * peewee
+* tensorflow
 
 ###### Install with Apt (apt-get install)
 * sqlite3
