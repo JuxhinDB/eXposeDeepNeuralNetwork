@@ -35,7 +35,9 @@ This should generate the following output:
   0.9811802506446838],
  ['paypal.com', 0.2289438247680664]]`
  
-## Dependencies (install these with pip)
+## Dependencies
+
+###### Install with Pip (pip install)
 
 * keras
 * h5py
@@ -44,9 +46,11 @@ This should generate the following output:
 * scipy
 * numpy
 * sklearn
-* sqlite3
 * zerorpc
 * peewee
+
+###### Install with Apt (apt-get install)
+* sqlite3
 
 ## Training new models
 
